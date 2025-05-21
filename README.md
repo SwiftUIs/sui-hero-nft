@@ -138,6 +138,7 @@ Read file: src/tests/mintHeroWithSword.test.ts
 本工程是一个基于 Sui 区块链的 NFT 铸造与装备演示项目。核心流程是链上铸造 Hero 和 Sword 两种 NFT，并将 Sword 装备到 Hero 上，最后转给用户。项目结构清晰，便于扩展和测试。部分核心逻辑（如 mint 和解析）尚未实现，需补充链上交互细节。
 
 
+sui keytool convert suiprivkey   私钥 生成 env 里面需要的参数 
 
 
 使用 Sui TypeScript SDK 的客户端应用
